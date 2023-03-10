@@ -10,5 +10,7 @@ tokenizer = llama.LLaMATokenizer.from_pretrained(MODEL)
 model = llama.LLaMAForCausalLM.from_pretrained(MODEL, low_cpu_mem_usage = True)
 model.to('cuda')
 
-batch = tokenizer("Yo mama", return_tensors = "pt", add_special_tokens = False)
+batch = tokenizer("Yo mama", return_tensors = "pt")
 print(tokenizer.decode(model.generate(batch["input_ids"].cuda(), max_length=100)[0]))
+
+# Expected output: "Yo mama is so fat, she has to buy two seats on the plane"

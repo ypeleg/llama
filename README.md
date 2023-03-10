@@ -1,4 +1,4 @@
-# LLaMA - Simple interface for using LLaMA models with HuggingFace
+# LLaMA. Simple. Using HuggingFace.
 
 ### What is this all about?
 

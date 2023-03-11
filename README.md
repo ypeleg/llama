@@ -18,7 +18,7 @@ model = llama.LLaMAForCausalLM.from_pretrained('decapoda-research/llama-7b-hf')
 print(tokenizer.decode(model.generate(tokenizer('Yo mama', return_tensors = "pt")["input_ids"])[0]))
 ```
 
-Yeah. No over engineering bullshit.
+Yeah. No overengineering bullshit.
 
 > Also: No need to clone a huge custom `transformers` repo that you later on stuck with maintaining and updating yourself. 
 

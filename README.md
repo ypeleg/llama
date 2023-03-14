@@ -1,5 +1,8 @@
 # LLaMA. Simple. Using HuggingFace.
 
+> **Credits:** Large parts of the code are based on the [PR](https://github.com/huggingface/transformers/pull/21955) by [Jason Phang](https://github.com/zphang). 
+> Thank you for your hard work!
+
 ### What is this all about?
 
 - Do you also want a "private GPT-3" at home?
